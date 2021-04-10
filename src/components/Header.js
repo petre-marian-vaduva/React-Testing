@@ -1,11 +1,14 @@
-import React from 'react'
-
-const Header = () => {
+const Header = ({title}) => {
     return (
-        <div>
-            
-        </div>
+        <header>
+            <h1>{title}</h1>
+        </header>
     )
 }
 
+const headingStyle = {
+    color: 'red', backgroundColor: 'black'
+}
+
 export default Header
+

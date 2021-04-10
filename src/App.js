@@ -1,12 +1,16 @@
+import Header from './components/Header'
 
 function App() {
 
   return (
     <div className="container">
-      <h1>React testing!</h1>
+     <Header />
     </div>
-    
   );
+}
+
+Header.defaultProps = {
+  title: "Marian"
 }
 
 export default App;
