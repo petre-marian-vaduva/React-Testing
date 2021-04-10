@@ -1,14 +1,15 @@
 const Header = ({title}) => {
     return (
-        <header>
+        <header className='header'>
             <h1>{title}</h1>
+            <button className='btn'>Add</button>
         </header>
     )
 }
-
-const headingStyle = {
-    color: 'red', backgroundColor: 'black'
-}
+//CSS in Js
+// const headingStyle = {
+//     color: 'red', backgroundColor: 'black'
+// }
 
 export default Header
 
