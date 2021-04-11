@@ -1,16 +1,15 @@
 import Header from './components/Header'
+import Tasks from './components/Tasks'
 
-function App() {
+const App = () => {
 
   return (
     <div className="container">
      <Header />
+     <Tasks />
     </div>
-  );
+  )
 }
 
-Header.defaultProps = {
-  title: "Marian"
-}
 
-export default App;
+export default App
